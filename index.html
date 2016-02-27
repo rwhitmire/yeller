@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <button>yell at the dogs</button>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+    <script>
+      $('button').on('click', function() {
+        $.ajax({
+          url: '/play'
+        });
+      });
+    </script>
+  </body>
+</html>
